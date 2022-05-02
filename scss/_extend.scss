@@ -1,0 +1,39 @@
+
+
+@use 'variables' as *;
+
+
+%h1{
+  font-size:  3.5rem;
+  font-weight:  800;
+  color: $blue;
+}
+%h2{
+  font-size:  2.75rem;
+  font-weight:  700;
+  color: $darkblue;
+}
+%h3{
+  font-size:  1.75rem;
+  font-weight:  700;
+  color: $darkblue;
+}
+%h4{
+  font-size:  1.25rem;
+  font-weight:  600;
+}
+%p{
+  font-size:  1rem;
+  font-weight:  400;
+  line-height: 1.6;
+  color: $black;
+}
+%btn{
+  display: inline-block;
+  font-size:  1.25rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight:  500;
+  background-color:$red;
+  color: $white;
+}
